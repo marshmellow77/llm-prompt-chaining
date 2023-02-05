@@ -5,8 +5,8 @@ import os
 from langchain.agents import load_tools
 from langchain.agents import initialize_agent
 
-os.environ["OPENAI_API_KEY"] = "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"
-os.environ["SERPAPI_API_KEY"] = "3098db6b722525d8782bff2e879830e73c50ea50b6fe1338729457c355a56a36"
+os.environ["OPENAI_API_KEY"] = "xxx"
+os.environ["SERPAPI_API_KEY"] = "xxx"
 
 st.set_page_config(
     page_title="Enhanced LLM with integrated search capability",
